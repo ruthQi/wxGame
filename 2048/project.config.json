@@ -1,0 +1,27 @@
+{
+	"setting": {
+		"newFeature": true,
+		"urlCheck": false
+	},
+	"appid": "touristappid",
+	"projectname": "2048Test",
+	"isGameTourist": true,
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": -1,
+			"list": []
+		}
+	}
+}
