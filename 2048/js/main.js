@@ -33,5 +33,17 @@ export default class Main {
       //ctx.font = "20px Arial";
       //let posStart = (this.winWidth - 100)/2;
       //ctx.fillText('开始游戏', 200, 400);
+      let playImg = new Image();
+      playImg.src = 'images/play.png';
+      playImg.onload = () => {
+         let startPos = (this.winWidth - playImg.width/2)/2;
+         ctx.drawImage(playImg, 0, 0, playImg.width, playImg.height, startPos, 400, playImg.width/2, playImg.height/2)
+      }
+      this.initEvent();
+   }
+   initEvent(){
+      canvas.addEventListener('touchstart', ()=>{
+         console.log('start')
+      })
    }
 }
