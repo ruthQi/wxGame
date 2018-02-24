@@ -3,6 +3,8 @@
 		"newFeature": true,
 		"urlCheck": false
 	},
+  "compileType": "game",
+  "libVersion": "game",
 	"appid": "touristappid",
 	"projectname": "2048Test",
 	"isGameTourist": true,
