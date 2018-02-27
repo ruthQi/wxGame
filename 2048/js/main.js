@@ -25,7 +25,7 @@ export default class Main {
          let startPos = (this.winWidth - logoImg.width)/2;
          ctx.drawImage(logoImg, 0, 0, logoImg.width, logoImg.height, startPos, 150, logoImg.width, logoImg.height);
       }
-      //文字
+      //文字test
       //console.log(ctx)
       //ctx.fillRect((this.winWidth - 100)/2, 100, 100, 100);
       //ctx.fillStyle = "#ffffff";
